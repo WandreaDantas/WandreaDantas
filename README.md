@@ -1,16 +1,298 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sessão SOS Emocional - Transforme sua dor em força</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+        }
+        
+        .gold-gradient {
+            background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+        }
+        
+        .card-shadow {
+            box-shadow: 0 20px 25px -5px rgba(220, 38, 38, 0.1), 0 10px 10px -5px rgba(220, 38, 38, 0.04);
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .gold-text {
+            color: #d97706;
+        }
+        
+        .red-text {
+            color: #dc2626;
+        }
+        
+        .gold-bg {
+            background-color: #fef3c7;
+        }
+        
+        .red-bg {
+            background-color: #fef2f2;
+        }
+        
+        .gold-border {
+            border-color: #fbbf24;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="min-h-screen gradient-bg">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- Header -->
+        <div class="text-center mb-12 fade-in">
+            <div class="floating mb-6">
+                <span class="text-6xl">💌</span>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+                Que bom que você chegou até aqui
+            </h1>
+            <p class="text-xl text-white/90 font-light">
+                Isso já mostra que você está pronta para buscar força emocional e começar a virar essa página na sua vida ✨
+            </p>
+        </div>
 
-<!--
-**WandreaDantas/WandreaDantas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+        <!-- Main Content Card -->
+        <div class="bg-white rounded-3xl card-shadow p-8 md:p-12 mb-8 fade-in">
+            <!-- Acolhimento -->
+            <div class="text-center mb-12">
+                <h2 class="text-2xl font-semibold red-text mb-6">
+                    Você não está sozinha nessa jornada
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Muitas mulheres chegam até mim com dores emocionais diferentes: algumas após uma separação, outras enfrentando ansiedade, insegurança, baixa autoestima ou até crenças que as impedem de avançar. 💭
+                </p>
+                <div class="gold-bg rounded-2xl p-6 border-2 gold-border">
+                    <p class="text-gray-700 font-medium">
+                        O importante é que <strong class="red-text">todas essas situações podem ser trabalhadas</strong> dentro da Sessão SOS Emocional.
+                    </p>
+                </div>
+            </div>
 
-Here are some ideas to get you started:
+            <!-- Método e Resultados -->
+            <div class="mb-12">
+                <div class="text-center mb-8">
+                    <span class="text-3xl mb-4 block">🌷</span>
+                    <h2 class="text-2xl font-semibold red-text mb-4">
+                        Como eu posso te ajudar
+                    </h2>
+                    <p class="text-gray-700 mb-6">
+                        Eu trabalho justamente ajudando mulheres que estão sobrecarregadas com emoções que parecem não ter saída.
+                    </p>
+                </div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+                <div class="red-bg rounded-2xl p-6 mb-8 border border-red-200">
+                    <p class="text-gray-700 text-center mb-4">
+                        Na <strong class="red-text">Sessão SOS Emocional</strong>, eu aplico a técnica internacional <strong class="gold-text">BMT</strong> e outras ferramentas que já ajudaram muitas mulheres a:
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <span class="text-red-600 text-xl mt-1">✨</span>
+                            <p class="text-gray-700">Dormirem em paz novamente</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-red-600 text-xl mt-1">✨</span>
+                            <p class="text-gray-700">Se libertarem da culpa, do medo e da solidão</p>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <span class="text-red-600 text-xl mt-1">✨</span>
+                            <p class="text-gray-700">Encontrarem clareza para tomar decisões importantes</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-red-600 text-xl mt-1">✨</span>
+                            <p class="text-gray-700">Ressignificarem crenças que bloqueavam a autoestima e a vida amorosa/profissional</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimentos -->
+                <div class="gold-bg rounded-2xl p-6 border-2 gold-border">
+                    <h3 class="font-semibold gold-text mb-4 text-center">O que minhas clientes dizem:</h3>
+                    <div class="grid md:grid-cols-3 gap-4 text-center">
+                        <div class="bg-white rounded-lg p-4">
+                            <p class="text-gray-700 italic">"Hoje consigo sorrir de novo"</p>
+                        </div>
+                        <div class="bg-white rounded-lg p-4">
+                            <p class="text-gray-700 italic">"Voltei a acreditar em mim"</p>
+                        </div>
+                        <div class="bg-white rounded-lg p-4">
+                            <p class="text-gray-700 italic">"Consigo lidar melhor com a ansiedade"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Como funciona -->
+            <div class="mb-12">
+                <h2 class="text-2xl font-semibold red-text mb-6 text-center">
+                    Como funciona a Sessão SOS Emocional
+                </h2>
+                
+                <div class="grid md:grid-cols-2 gap-8 mb-8">
+                    <div class="space-y-4">
+                        <div class="red-bg rounded-xl p-4 border border-red-200">
+                            <h3 class="font-semibold red-text mb-2">📅 Formato</h3>
+                            <p class="text-gray-700">Online, período noturno<br>Duração: 1h30 em média</p>
+                        </div>
+                        <div class="gold-bg rounded-xl p-4 border border-yellow-200">
+                            <h3 class="font-semibold gold-text mb-2">🔄 Frequência</h3>
+                            <p class="text-gray-700">Quinzenais (ou semanais em casos urgentes)</p>
+                        </div>
+                    </div>
+                    <div class="red-bg rounded-xl p-4 border border-red-200">
+                        <h3 class="font-semibold red-text mb-2">🔮 Primeira sessão</h3>
+                        <p class="text-gray-700">Se você quiser, podemos usar o tarô de autoconhecimento como apoio (opcional)</p>
+                    </div>
+                </div>
+
+                <!-- Processo -->
+                <div class="bg-white border-2 gold-border rounded-2xl p-6">
+                    <h3 class="font-semibold gold-text mb-4 text-center">O tratamento é progressivo:</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <span class="bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mt-1">1</span>
+                            <p class="text-gray-700">Trabalhamos para te ajudar a <strong>aliviar a dor imediata</strong> (ansiedade, culpa, medo, tristeza)</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mt-1">2</span>
+                            <p class="text-gray-700">Se necessário, fazemos um <strong>divórcio energético</strong> para cortar laços que ainda te prendem</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mt-1">3</span>
+                            <p class="text-gray-700">Mapeamos seus <strong>padrões emocionais e crenças</strong> através de testes especializados</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mt-1">4</span>
+                            <p class="text-gray-700">Mergulhamos no trabalho profundo com a <strong>técnica BMT</strong> para liberar emoções e ressignificar memórias</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 text-center">
+                        <p class="text-gray-600 italic">
+                            ⏰ O tempo do tratamento é indeterminado, porque depende do seu ritmo e necessidades — cada mulher tem seu próprio tempo de cura.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Investimento -->
+            <div class="mb-12">
+                <h2 class="text-2xl font-semibold red-text mb-6 flex items-center justify-center">
+                    <span class="mr-3">💸</span>
+                    Investimento
+                </h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-gradient-to-br from-red-50 to-red-100 rounded-xl p-6 text-center border border-red-200">
+                        <h3 class="font-semibold text-gray-800 mb-2">Primeira sessão</h3>
+                        <p class="text-3xl font-bold red-text">R$150</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-xl p-6 text-center border border-yellow-200">
+                        <h3 class="font-semibold text-gray-800 mb-2">Sessões avulsas</h3>
+                        <p class="text-3xl font-bold gold-text">R$150</p>
+                        <p class="text-sm text-gray-600">cada</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-xl p-6 text-center border-2 gold-border">
+                        <div class="bg-red-600 text-white text-xs px-2 py-1 rounded-full inline-block mb-2">MELHOR OPÇÃO</div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Pacote com 4 sessões</h3>
+                        <p class="text-3xl font-bold gold-text">R$120</p>
+                        <p class="text-sm text-gray-600">cada</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="text-center">
+                <div class="mb-8">
+                    <span class="text-3xl mb-4 block">🌹</span>
+                    <h2 class="text-2xl font-semibold red-text mb-4">
+                        Você sente que esse é o momento de dar esse passo por você?
+                    </h2>
+                    <p class="text-gray-600 mb-6">
+                        Se você chegou até aqui, é porque algo dentro de você está pedindo essa transformação. Eu estou aqui para te acompanhar nessa jornada.
+                    </p>
+                </div>
+                
+                <button onclick="agendarSessao()" class="pulse-animation gold-gradient hover:from-yellow-500 hover:to-orange-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg transform transition-all duration-300 hover:scale-105 mb-4">
+                    <span class="mr-2">💌</span>
+                    QUERO AGENDAR MINHA PRIMEIRA SESSÃO
+                </button>
+                
+                <p class="text-sm text-gray-500">
+                    Clique no botão e vamos conversar sobre como posso te ajudar
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="text-center text-white/80">
+            <p class="text-sm">
+                © 2024 Sessão SOS Emocional - Transformando dores em força, medos em coragem
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function agendarSessao() {
+            const mensagem = encodeURIComponent("Olá! Vi sua página e gostaria de saber mais sobre a Sessão SOS Emocional. Posso agendar uma conversa?");
+            const numeroWhatsApp = "5511981764653"; // Substitua pelo seu número
+            
+            window.open(`https://wa.me/${numeroWhatsApp}?text=${mensagem}`, '_blank');
+        }
+
+        // Animação de entrada suave
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.fade-in');
+            elements.forEach((el, index) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'all 0.6s ease-out';
+                
+                setTimeout(() => {
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'977eaa0d90438781',t:'MTc1NjY2NTcwOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
